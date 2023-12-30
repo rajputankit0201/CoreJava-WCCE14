@@ -1,0 +1,20 @@
+class Parker extends Pen
+{
+	String type;
+	String color;
+
+	Parker(String name,double price,String type,String color)
+	{
+		super(name,price);
+		this.name= name;
+		this.price= price;
+	}
+	public void use()
+	{
+		System.out.println("Anything to write on notebook we need Pen");
+	}
+	public static void main(String[] args) 
+	{
+		Parker p = new Parker("Parker",570.22,"Gel Pen","Blue");
+	}
+}

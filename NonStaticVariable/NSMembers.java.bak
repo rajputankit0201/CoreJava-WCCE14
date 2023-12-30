@@ -1,0 +1,25 @@
+class NSMembers 
+{
+	int v = 200;
+	char ch = 'z';
+	{
+			System.out.println("NSB of NSMembers");
+	}
+	NSMembers()
+	{
+			System.out.println("Constructor of NSMembers");
+	}
+		public void test()
+	{
+			System.out.println("Demo() of NSMember");
+	}
+		public static void main(String[] args) 
+	{
+			System.out.println("Main Start");
+			NSMembers.obj = new NSMembers();
+			System.out.println(obj.v);
+			System.out.println(obj.ch);
+			obj.test();
+			System.out.println("Main end");
+	}
+}

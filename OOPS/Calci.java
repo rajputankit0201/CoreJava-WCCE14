@@ -1,0 +1,9 @@
+interface Calci
+{
+	int s = 150;
+	//variaable will be considerd as ---> public final static variable.
+	public static void main(String[] args) 
+	{
+		System.out.println(s);
+	}
+}

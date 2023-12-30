@@ -1,0 +1,32 @@
+//Q.Assignment no.4 :- Hybrid inheritance.
+
+class Teacher extends College
+{
+	String name;
+	int age;
+	String subject;
+
+	Teacher(String dept, String course, String name, int age, String subject)
+	{
+		super(dept, course);
+		this.name = name;
+		this.age = age;
+		this.subject = subject;
+	}
+	public void teaching()
+	{
+		System.out.println("teachers has a awesome training ideas");
+	}
+		public static void main(String[] args)
+	{
+		Teacher t = new Teacher("Engineering", "BE in CS", "Ankit", 26, "Math");
+		College c =(College)t;
+		t.teaching();
+		c.admission();
+		System.out.println(c.dept);
+		System.out.println(c.course);
+		System.out.println(t.name);
+		System.out.println(t.age);
+		System.out.println(t.subject);
+	}
+}

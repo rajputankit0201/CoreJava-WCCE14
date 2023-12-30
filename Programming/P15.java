@@ -1,0 +1,10 @@
+//Q.15} write a java program to check whether given charcter is Upper case or Lower case using conditional operators.
+
+class P15 
+{
+	public static void main(String[] args) 
+	{
+		char  ch = 'A';
+		System.out.println((ch >= 'A' && ch <= 'z')? "Upper case": "Lower case");
+	}
+}

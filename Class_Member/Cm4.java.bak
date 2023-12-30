@@ -1,0 +1,9 @@
+// Q.2} Write a java program to perform operation in Substraction.
+
+class Cm4
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

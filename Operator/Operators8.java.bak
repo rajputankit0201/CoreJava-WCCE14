@@ -1,0 +1,14 @@
+class Operators8 
+{
+	public static void main(String[] args) 
+	{
+	    char a='A';
+		char b='v';
+		
+
+		boolean b = c >= z;
+		boolean x = c == z;
+	
+		System.out.println(b || x);
+	}
+}

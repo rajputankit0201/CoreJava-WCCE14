@@ -1,0 +1,15 @@
+class P2 
+{
+	public static void main(String[] args) 
+	{
+		// Autoboxing
+		Integer i = 10; //10
+		int a = 155;  //155
+		//Autoboxing
+		Integer x = 155; //155
+
+		System.out.println(i);
+		System.out.println(a);
+		System.out.println(x);
+	}
+}

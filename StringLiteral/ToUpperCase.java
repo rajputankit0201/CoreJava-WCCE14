@@ -1,0 +1,8 @@
+class ToUpperCase 
+{
+	public static void main(String[] args) 
+	{
+		String name = "AbhinitKumar";
+		System.out.println(name.toUpperCase());
+	}
+}

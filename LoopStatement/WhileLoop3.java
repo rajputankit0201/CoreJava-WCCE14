@@ -1,0 +1,14 @@
+// Q.3} Write a java program print five @ on line
+
+class WhileLoop3 
+{
+	public static void main(String[] args)
+    {
+     int i = 1;
+	 while (i <= 5)
+	 {
+		System.out.print("@");
+		i++;
+	}
+   }
+}

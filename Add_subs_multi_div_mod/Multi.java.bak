@@ -1,0 +1,11 @@
+class Multi 
+{
+	public static void main(String[] args) 
+	{
+		short q = 11;
+		short v = 55;
+		short w = 20;
+		long product = q*v*w;
+		System.out.println(Product);
+	}
+}

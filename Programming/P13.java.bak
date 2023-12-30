@@ -1,0 +1,12 @@
+// Q,13} Write a java program to check whether given number is positive or not.
+
+class P13 
+{
+	public static void main(String[] args) 
+	{
+		int num1 = -59;
+		String res=(num1 >=0)? "Positive" : "Negative";
+		System.out.println(res);
+		System.out.println((num1>=0)?"P" : "N");
+	}
+}

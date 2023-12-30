@@ -1,0 +1,9 @@
+//Q.11} WAJP to print the area and perimeter of a circle.
+
+class Exercise11
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+}

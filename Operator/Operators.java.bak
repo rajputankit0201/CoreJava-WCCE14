@@ -1,0 +1,11 @@
+class Operators 
+{
+	public static void main(String[] args) 
+	{
+      int a = 2345 ;
+	  int b = 12345;
+		System.out.println(2345 <= 12345);
+
+      
+	}
+}

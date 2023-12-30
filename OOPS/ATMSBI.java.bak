@@ -1,0 +1,8 @@
+interface ATMSBI
+{
+	void withdraw();
+	void deposit();
+	void checkBalance();
+	void changePin();
+	void details();
+}

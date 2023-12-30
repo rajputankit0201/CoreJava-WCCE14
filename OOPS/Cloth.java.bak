@@ -1,0 +1,35 @@
+//Q} Inheritance with the help of interface
+
+interface Cloth 
+{
+	void wear();
+	void wash();
+}
+	interface FormalCloth extends Cloth
+	{
+		void clean();
+	}
+	class Shirt implements FormalCloth
+	{
+		public void wear()
+		{
+			System.out.println("Humans wear cloths");
+		}
+		public void wash()
+		{
+			System.out.println("Humans wash cloths");
+		}
+		public void clean()
+		{
+			System.out.println("Humans use cloths for cleaning purpose");
+		}
+		public static void main(String [] args)
+		{
+			Shirt s = new Shirt();
+			FormalCloth f = s;
+			Cloth c = f;
+			f.clean();
+			c.wear();
+			c.wash();
+		}
+	}

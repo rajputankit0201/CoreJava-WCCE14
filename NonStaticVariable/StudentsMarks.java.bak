@@ -1,0 +1,27 @@
+class StudentsMarks 
+{
+	int SrNo;
+	String name;
+	float marks;
+
+	{
+		SrNo = 1;
+		name = "Sudeep";
+		marks = 85.79f;
+		System.out.println("NSB1 of P1");
+	}
+	StudentsMarks()
+	{
+		System.out.println("Constructor");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Main start");
+		StudentsMarks p = new StudentsMarks();
+		System.out.println(p.srno);
+		System.out.println(p.name);
+		System.out.println(p.marks);
+		System.out.println("Main end");
+
+	}
+}

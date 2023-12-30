@@ -1,0 +1,13 @@
+class P3 
+{
+	public static void main(String[] args) 
+	{
+		Integer i = Integer.valueOf(155);   //155
+		int a = 100;  //100
+		Integer x = Long.valueOf(a);  //100
+
+		System.out.println(i);
+		System.out.println(a);
+		System.out.println(x);
+	}
+}

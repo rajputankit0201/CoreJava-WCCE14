@@ -1,0 +1,17 @@
+// Q.1} Write a java program to perform operation in Addition.
+
+class Cm3
+{
+   public static int add()
+	{ 
+	   int e = 25;
+   	   int f = 30;
+	   int sum = e+f;
+	   return sum;
+    }
+	 public static void main(String[] args)
+	     {
+		    int sum = add();
+		    System.out.println(sum);
+	     }
+}

@@ -1,0 +1,10 @@
+class Newprogram3 
+{
+	public static void main(String[] args) 
+	{
+		double d = 123.43;
+		float  f = 125.12f;
+		System.out.println(d);
+		System.out.println(f);
+	}
+}

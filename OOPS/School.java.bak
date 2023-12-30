@@ -1,0 +1,8 @@
+//Q.Assignment no.4 :- Hybrid inheritance.
+
+class School
+{
+		String dept;
+
+
+}

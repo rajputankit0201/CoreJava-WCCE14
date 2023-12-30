@@ -1,0 +1,12 @@
+//Q.4} Declare a global variable and try to perform narrowing with another global variable?
+
+class ClassMember4
+{
+	static double a = 554.55;
+	static int b = (int)a;
+	public static void main(String[] args) 
+	{
+		System.out.println(a);
+		
+	}
+}

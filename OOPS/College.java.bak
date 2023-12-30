@@ -1,0 +1,22 @@
+//Q.Assignment no.4 :- Hybrid inheritance.
+
+class College
+{
+		String dept;
+		String course;
+
+		public void admission()
+		{
+			System.out.println("Every 12th pass students should take admission for graduation");
+		}
+
+		College(String dept, String course)
+		{
+			this.dept = dept;
+			this.course = course;
+		}
+
+
+
+
+}

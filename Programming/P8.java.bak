@@ -1,0 +1,12 @@
+// Q.8} Write a java progra to perform substraction or to print the difference.
+
+class P8 
+{
+	public static void main(String[] args) 
+	{
+		int x = 45;
+		int y = 75;
+		int subs = y-x;
+		System.out.println(subs); // 30
+	}
+}

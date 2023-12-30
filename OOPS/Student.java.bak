@@ -1,0 +1,29 @@
+//Q.Assignment no.4 :- Hybrid inheritance.
+
+class Student extends College
+{
+	String Sname;
+	int Sid;
+
+	Student(String dept, String course, String Sname, int Sid)
+	{
+		super(dept, course);
+		this.Sname = Sname;
+		this.Sid = Sid;
+	}
+	public void study()
+	{
+		System.out.println("Every students should do study properly");
+	}
+	public static void main(String[] args) 
+	{
+	Student s = new Student("Engineering", "BE in CS", "Ajit", 101);
+		College c =(College)s;
+		c.admission();
+		s.study();
+		System.out.println(c.dept);
+		System.out.println(c.course);
+		System.out.println(s.Sname);
+		System.out.println(s.Sid);
+	}
+}

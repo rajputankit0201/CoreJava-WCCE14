@@ -1,0 +1,21 @@
+//encapsulation getter and setter method
+
+class Private 
+{
+	int eid;
+	Private(int eid)
+	{
+		this.eid = eid;
+	}
+	//for accessing the private variable
+	public int getEid()
+	{
+		return this.eid;
+	}
+		//for modifying the private variable
+		public void setEid(int eid)
+	{
+			this.eid = eid;
+	}
+}
+ 

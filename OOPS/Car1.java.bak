@@ -1,0 +1,7 @@
+class Car1 extends Vehicle1 
+{
+	public void breakingSystem()
+	{
+		System.out.println("Hydraulic break");
+	}
+}

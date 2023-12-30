@@ -1,0 +1,26 @@
+//Q.20} WAJP to convert a decimal number to a hexadecimal number?
+import java.util.Scanner;
+class Exercise20 
+{
+	public static void main(String[] args) 
+	{
+		int dec_num, rem;
+		String hexadec_num="";
+
+		//hexadecimal number digits
+
+		char hex[] ={'0', '1' , '2' , '3' , '4','5','6','7','8','9','A','B','C','E','F'};
+		Scanner in= new Scanner(System.in);
+
+		System.out.println("Input a decimal number: ");
+		dec_num= in.nextInt();
+
+		while (dec_num)
+		{
+			rem =dec_num%16;
+			hexadec_num= hex[rem] + hexadec_num;
+			dec_num = dec_num/16;
+		}
+		System.out.println("Hexadecimal number is : "+hexadec_num+"\n");
+	}
+}

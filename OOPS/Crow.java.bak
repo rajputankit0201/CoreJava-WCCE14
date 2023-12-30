@@ -1,0 +1,24 @@
+class Crow extends Bird
+{
+	String color;
+	String voice;
+
+	Crow(String type, String voice, String color, String color1, String voice1)
+	{
+		super(type,voice,color);
+		this.color = color;
+		this.voice = voice;
+	}
+
+	public static void main(String[] args) 
+	{
+		Bird b = new Bird("Flying bird", "Caw-Caw", "Black","White", "Cow-Cow");
+		Crow c = (Crow)b;
+
+			System.out.println(b.type);
+			System.out.println(b.voice);
+			System.out.println(b.color);
+			System.out.println(c.voice);
+			System.out.println(c.color);
+	}
+}

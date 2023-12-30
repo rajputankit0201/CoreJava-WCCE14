@@ -1,0 +1,22 @@
+// 20-08-2-23 String program8 shuffle character
+import java.util.*;
+class  ShuffleWords
+{
+	public static void main(String[] args) 
+	{
+		String s = "Meri ek tang nakali hai, Mai Hocky ka bahut bada player hu";
+		System.out.println("Original S: "+s);
+		System.out.println(" ");
+
+		String[] word =s.split(" ");
+		System.out.println("Conversion of S -Array after spilt :"+word);
+		System.out.println(" ");
+
+		HashSet h =new HashSet();
+		for (String s1:word)
+		{
+			h.add(s1);
+		}
+		System.out.println("Shuffle Set :"+h);
+	}
+}

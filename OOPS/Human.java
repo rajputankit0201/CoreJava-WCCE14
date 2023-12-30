@@ -1,0 +1,40 @@
+class Human  
+{
+	String name;
+	int age;
+	double Weight;
+	double Height;
+
+	Human(String name,int age,double Weight,double Height)
+	{
+		this(age,Weight,Height);
+		this.name= name;
+		System.out.println("Constructor for name");
+	}
+
+	Human(int age,double Weight,double Height)
+	{
+		this(Weight,Height);
+		this.age= age;
+		System.out.println("Constructor for age");
+	} 
+
+	Human(double Weight,double Height)
+	{
+		this(Height);
+		this.Weight= Weight;
+		System.out.println("Constructor for Weight");
+	}
+	Human(double Height)
+	{
+		this.Height= Height;
+		System.out.println("Constructor for Height");
+	}
+	public static void main(String[] args) 
+	{
+		System.out.println("Ajith's Info");
+		Human h= new Human("Ajith",45,60,5.6);
+		System.out.println("Abhineeth's Info");
+		Human a= new Human("Abhineeth",23,70,5.5);
+	}
+}

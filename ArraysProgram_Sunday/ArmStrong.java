@@ -1,0 +1,33 @@
+//Q.5} ArmStrong
+
+class ArmStrong 
+{
+	public static void main(String[] args) 
+	{
+		int num = 1364, count=0,copy= num,sum=0;
+		int flag = num;
+
+		while (num > 0)
+		{
+			count++;
+			num/=10;
+		}
+		while (copy > 0)
+		{
+			int rem = copy % 10;
+			int power = 1;
+			for (int i =1;i <= count ;i++ )
+			{
+				power *= rem;
+			}
+			sum = sum + power;
+			copy = copy/10;
+		}
+		if (flag == sum)
+		{
+			System.out.println("ArmStrong");
+		}
+		else
+			System.out.println("Not ArmStrong");
+	}
+}

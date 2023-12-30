@@ -1,0 +1,9 @@
+class Newprogram4 
+{
+	public static void main(String[] args) 
+	{
+		long a= 12343;
+
+		System.out.println(a);
+	}
+}

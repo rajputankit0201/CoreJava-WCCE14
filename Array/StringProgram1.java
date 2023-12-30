@@ -1,0 +1,19 @@
+// 20-08-2-23 String program1
+
+class StringProgram1
+{
+	public static void main(String[] args) 
+	{
+		String s ="Ketan kate bus stopch maghe rahtat";
+		// for horizontal representation
+		for (int i=0;i<s.length() ;i++ )
+		{
+			System.out.print(s.charAt(i)+" ");
+		}
+		// for horizontal representation
+		for (int i=0;i<s.length() ;i++ )
+		{
+			System.out.println(s.charAt(i));
+		}
+	}
+}

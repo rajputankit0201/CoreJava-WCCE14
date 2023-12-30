@@ -1,0 +1,10 @@
+class NullPointer 
+{
+	int a = 100;
+	public static void main(String[] args) 
+	{
+		//1st statement
+		String s = null;
+		System.out.println(s.length());
+	}
+}

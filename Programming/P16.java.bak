@@ -1,0 +1,21 @@
+// Q.16} Write a java program with the help of switch statement to check whether given number is even or odd.
+
+class P16 
+{
+	public static void main(String[] args) 
+	{
+		int a = 6;
+
+		switch (a%2==0)
+		{
+		case 0 : 
+			System.out.println(a + " is even.");
+			break;
+		case 1 :
+			System.out.println(a + " is odd.");
+			break;
+		default :
+			System.out.println("default");
+        }
+     }
+}

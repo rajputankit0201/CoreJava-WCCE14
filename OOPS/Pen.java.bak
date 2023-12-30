@@ -1,0 +1,15 @@
+class Pen 
+{
+	String name;
+	double price;
+
+	public void writing()
+	{
+		System.out.println("Pen is a very Powerfull object");
+	}
+	Pen(String name,double price)
+	{
+		this name= name;
+		this price= price;
+	}
+}

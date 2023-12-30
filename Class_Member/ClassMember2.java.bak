@@ -1,0 +1,11 @@
+//Q.2} Declare a global variable and intialise the value in main method?
+
+class ClassMember2 
+{
+	static int a =25;
+	public static void main(String[] args) 
+	{
+		int a=25;
+		System.out.println(a);
+	}
+}
